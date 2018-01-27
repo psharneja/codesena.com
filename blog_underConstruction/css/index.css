@@ -1,0 +1,137 @@
+/* YOUR CUSTOM STYLES */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(../font/erE3KsIWUumgD1j_Ca-V-xJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans'), local('NotoSans'), url(../font/LeFlHvsZjXu2c3ZRgBq9nFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Scribble';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Scribble'), local('Scribble'), url(../font/FrederickatheGreat-Regular.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Indie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie'), local('Indie'), url(../font/IndieFlower.ttf) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+.scribble {
+	font-family: 'Scribble', serif, 'Noto Sans', Calibri, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+
+ .indie {
+	font-family: 'Indie', serif, 'Noto Sans', Calibri, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+
+  }
+
+  .carousel-item {
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-image: url('../img/public/homepage_backdrop.png');
+
+
+  }
+
+  .white{
+  	background-color: white; 
+  }
+  .min-500 {
+  	min-height: 500px;
+  }
+
+  .down-40 {
+  	position: absolute;
+  	top: 40%;
+  }
+
+  .circular-edges {
+  	border-radius: 5px;
+  }
+
+  .col-md-7 {
+  	padding: 2%;
+
+  }
+
+  .img-fluid {
+  	max-height: 200px;
+  }
+
+
+  .shade {
+  	box-shadow: 0px 0px 7px #555;
+  }
+
+  ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #e3f2fd;
+}
+
+#footer-row {
+    width: 100%;
+}
+
+.contacts {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.fa {
+    color: gray;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+    transition: all 0.2s ease-in-out
+}
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+
+
+#index {
+	position: fixed;
+	right: 10%;
+	top: 30%;
+	z-index: 10;
+}
+footer {
+z-index: 1
+}

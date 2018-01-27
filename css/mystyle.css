@@ -1,0 +1,561 @@
+#main-menu:hover,
+#search-icon:hover,
+a:hover {
+    color: #47b5ff!important;
+    cursor: pointer
+}
+
+#main-menu,
+#notification {
+    overflow: auto;
+    margin-top: 10px
+}
+
+#foot,
+#main-menu,
+#notification {
+    margin-top: 10px
+}
+
+#right-pane,
+#wrap {
+    min-height: 100vh;
+    margin: 5px
+}
+
+#flip,
+#next,
+#previous,
+.matrix td {
+    text-align: center
+}
+
+body {
+    -webkit-font-smoothing: antialiased
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans'), local('NotoSans'), url(../fonts/erE3KsIWUumgD1j_Ca-V-xJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans'), local('NotoSans'), url(../fonts/LeFlHvsZjXu2c3ZRgBq9nFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+
+@font-face {
+    font-family: Boogaloo;
+    font-style: normal;
+    font-weight: 400;
+    src: local('Boogaloo'), local('Boogaloo-Regular'), url(../fonts/selWIQWiQA98uHaoODndYvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+
+@font-face {
+    font-family: 'Faster One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Faster One'), local('FasterOne-Regular'), url(../fonts/R45a6_a3GGq28ugU8uxGWfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(../fonts/pEobIV_lL25TKBpqVI_a2w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 0
+}
+
+h1 {
+    font-family: 'Oswald', Boogaloo, 'Noto Sans', Georgia, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+}
+
+#foot,
+#main-menu,
+#search {
+    font-family: 'Noto Sans', Calibri, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+}
+
+header {
+    background-color: #28373c;
+    min-height: 51px
+}
+
+#logo {
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    width: 91px;
+    height: 35px
+}
+
+#toggler {
+    margin-top: 15px;
+    margin-right: 5px
+}
+
+.icon-bar {
+    background-color: #fff
+}
+
+#main-menu:hover,
+#panel,
+#search-icon,
+#search-icon:hover {
+    background-color: #3d4b4f
+}
+
+#flip,
+#foot,
+#main-menu,
+#next,
+#previous {
+    background-color: #28373c
+}
+
+#main-menu {
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    cursor: pointer;
+    font-size: 16px
+}
+
+.main-li {
+    margin-right: 10px
+}
+
+#main-menu:hover {
+    font-weight: 700
+}
+
+#cancel-reply:hover,
+#flip:hover,
+#next:hover,
+#previous:hover,
+#submit-comment:hover,
+#submit-contact:hover,
+#submit-reply:hover {
+    color: #47b5ff!important;
+    cursor: pointer;
+    font-weight: 700
+}
+
+#search {
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+#search-icon {
+    color: #fff;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+#comment-pane,
+#left-pane,
+#right-pane,
+#wrap {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid
+}
+
+#foot {
+    color: #fff;
+    padding-top: 40px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 99px;
+    width: 100%;
+    font-size: 12px
+}
+
+#notification,
+li,
+ol,
+p {
+    font-family: 'Noto Sans', Calibri, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    text-align: justify
+}
+
+#title {
+    font-family: 'Noto Sans', Calibri, Georgia, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+}
+
+#comment-pane,
+#flip {
+    font-family: 'Noto Sans', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    overflow: auto
+}
+
+#title-row {
+    margin-top: auto
+}
+
+#wrap {
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px
+}
+
+#left-pane {
+    color: #fff;
+    overflow: auto;
+    margin: 5px;
+    padding: 10px
+}
+
+#right-pane {
+    overflow: auto;
+    padding: 10px
+}
+
+#comment-pane {
+    padding: 5px;
+    min-width: 100%;
+    height: auto;
+    margin-bottom: 10px
+}
+
+#flip {
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid
+}
+
+#next,
+#panel,
+#previous {
+    font-size: 14px;
+    padding: 5px;
+    font-family: 'Noto Sans', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    color: #fff;
+    border-radius: 0;
+    cursor: pointer
+}
+
+#panel {
+    overflow: auto;
+    text-align: left;
+    display: none
+}
+
+#next,
+#previous {
+    margin-top: 5px
+}
+
+#cancel-reply,
+#submit-comment,
+#submit-contact,
+#submit-reply {
+    margin: auto;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Noto Sans', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    background-color: #28373c
+}
+
+#navigation {
+    overflow: auto;
+    margin: 0 auto
+}
+
+.scrollToTop {
+    overflow: auto;
+    margin: 0 auto;
+    width: 49px;
+    height: 69px;
+    padding-right: 1px;
+    position: fixed;
+    bottom: 101px;
+    right: 20px;
+    background: url(../images/up.png) 0 20px no-repeat
+}
+
+input[type=submit] {
+    font-family: FontAwesome
+}
+
+a {
+    text-decoration: none!important;
+    color: #fff
+}
+
+i {
+    margin-top: 2px
+}
+
+hr {
+    border-top: dotted 1px;
+    padding: 0
+}
+
+#beginner-sub,
+#complex-sub,
+#intermediate-sub {
+    width: 100%;
+    height: auto;
+    padding-left: 5px;
+    background-color: #28373c;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: .5px;
+    border-radius: 0;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-size: 13px
+}
+
+.loader {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #28373c;
+    width: 75px;
+    height: 75px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 10000000
+}
+
+#comment-reply,
+#contact-us-form {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #ccc
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+#comment-email,
+#comment-user,
+#reply-email,
+#reply-user,
+#user-comment,
+#user-reply {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 60%
+}
+
+#comment-captcha,
+#reply-captcha {
+    width: 60%
+}
+
+#user-comment,
+#user-reply {
+    min-height: 80px
+}
+
+#comment-reply {
+    overflow: auto;
+    margin: 5px;
+    background-color: #f5f2f0;
+    border-style: solid;
+    padding: 5px
+}
+
+li>a {
+    color: #000
+}
+
+p>a {
+    color: #1e5078
+}
+
+#contact-us-form {
+    margin: 50px;
+    border-style: dashed;
+    padding: 10px 20px
+}
+
+.input-group {
+    margin-top: 10px;
+    font-family: 'Noto Sans', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace
+}
+
+.contact-fields {
+    min-height: 40px;
+    border-radius: 10px
+}
+
+.captcha,
+.captcha-contact {
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: #f5f2f0;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    padding: 5px;
+    overflow: auto
+}
+
+.captcha {
+    max-width: 60%!important
+}
+
+.captcha-contact {
+    max-width: 90%!important
+}
+
+#captcha-code,
+#captcha-reply {
+    font-family: 'Faster One', Raleway;
+    padding: 10px
+}
+
+#binary-search,
+.matrix,
+.panel-body,
+.panel-heading,
+.panel-title {
+    font-family: 'Noto Sans', Calibri, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace!important
+}
+
+#refresh {
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 11px;
+    margin-right: 15px
+}
+
+.matrix {
+    position: relative;
+    margin: 5px
+}
+
+.matrix:after,
+.matrix:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    border: 1px solid #000;
+    width: 6px;
+    height: 100%
+}
+
+.matrix:before {
+    left: -6px;
+    border-right: 0
+}
+
+.matrix:after {
+    right: -6px;
+    border-left: 0
+}
+
+.matrix td {
+    padding: 6px
+}
+
+#sigma {
+    height: 50px;
+    line-height: 50px
+}
+
+.summation {
+    overflow: auto;
+    position: relative;
+    font-size: 2.5em;
+    line-height: .7em;
+    vertical-align: middle
+}
+
+.summation:after,
+.summation:before {
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 0;
+    text-align: center
+}
+
+.summation:before {
+    top: -12;
+    content: "n";
+    width: 22px
+}
+
+.summation:after {
+    bottom: -12;
+    content: "k = 1";
+    width: 27px
+}
+
+#wrap .panel-title {
+    color: #fff
+}
+
+#wrap .panel-heading {
+    background-color: #28373c!important
+}
+
+.panel-body,
+.panel-heading,
+.panel-title {
+    border-radius: 0
+}
+
+.panel-body {
+    text-align: justify
+}
